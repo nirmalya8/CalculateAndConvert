@@ -10,13 +10,13 @@ class evaluate:
             s = input("Expression ")
             c = compile(s,"<string>","eval")
             x =""
-            #try:
+            try:
             res = eval(c)
             print(res)
-            #except Exception as E:
-            #   print("Wrong input somewhere, please check the instructions again!")
-            #    x = "wrong input"
-            #    return x
+            except Exception as E:
+               print("Wrong input somewhere, please check the instructions again!")
+                x = "wrong input"
+                return x
             return res
 
         s = input("Expression ")
