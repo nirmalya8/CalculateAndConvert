@@ -1,6 +1,7 @@
 
 #this part will be in infix to postfix app route
 from inftopost import inf_to_post as itf 
+print("INFIX TO POSTFIX")
 s = input()
 obj=itf()
 result=obj.infixtopostfix(s)
@@ -13,6 +14,7 @@ else:
     print("Incorrect input")
 
 #this is for postfix to infix part
+print("POSTFIX TO INFIX")
 from posttoinf import post_to_inf as pti 
 s = input()
 obj1=pti()
@@ -30,6 +32,7 @@ else:
     print("Incorrect input")
 
 #infix to prefix
+print("INFIX TO PREFIX")
 from inftopre import infix_to_prefix as intpr 
 obj2 = intpr()
 expr=input()
@@ -46,6 +49,7 @@ else :
 
 
 #prefix to infix
+print("PREFIX TO INFIX")
 from pretoinf import prefixtoinfix as prtin 
 obj3 = prtin()
 expr=input()
@@ -53,6 +57,7 @@ result = obj3.prefixToInfix(expr)
 
 
 #this will be for the evaluate part
+print("EVALUATE")
 from eval import evaluate as ev
 obj = ev()
 res = ev.calc()
