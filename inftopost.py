@@ -118,3 +118,4 @@ class inf_to_post:
                 postfix+=self.pop()
 
         return postfix
+
