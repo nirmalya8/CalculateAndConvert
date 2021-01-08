@@ -29,6 +29,28 @@ if (result!=False):
 else:
     print("Incorrect input")
 
+#infix to prefix
+from inftopre import infix_to_prefix as intpr 
+obj2 = intpr()
+expr=input()
+rev=""
+rev=obj2.reverse(expr)
+#print(rev)
+result=obj2.infixtoprefix(rev)
+if (result!=False):
+    
+    prefix=obj2.reverse(result)
+    print("the prefix expr of :",expr,"is",prefix)
+else :
+    print("Incorrect expression")
+
+
+#prefix to infix
+from pretoinf import prefixtoinfix as prtin 
+obj3 = prtin()
+expr=input()
+result = obj3.prefixToInfix(expr)
+
 
 #this will be for the evaluate part
 from eval import evaluate as ev
