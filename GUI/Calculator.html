@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Simple Calculator</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+    />
+
+    <style>
+      .alert {
+        background: green;
+        padding: 1rem;
+        border-radius: 5px;
+        color: honeydew;
+        margin: 1rem;
+
+      }
+     body{
+         background-color:lavenderblush;
+     } 
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h3>Perform Operations:</h3>
+    </div>
+    <p>
+        Some important points to note and directions of use :
+
+<li>The user can enter a number "a" and an expression in terms of a. It must be noted that entering the number a is totally the user's choice.<li> The user can just enter any expression and that would be accepted.
+If a number is entered, and an expression is to be evaluated where the input to a variable is the number, then the expression must be written in terms of "a" only, otherwise it would throw an error. At the present moment, we haven't accounted for multivariate expressions.
+Python syntax should be followed.</li> For Eg. If you want to evaluate 2^3, then you have to enter 2**3 and not 2^3.
+Functions of modules such as numpy and math have been included. Eg. a) If you want to get a precise value of pi, then you can enter math.pi b) Trigonometric functions can be evaluated by using numpy.sin(a) or numpy.cos(a).</li>
+    </p>
+
+    <!-- Form -->
+    <div class="container">
+      <form action="/send" method="POST">
+        <label for="Operand">Operand</label>
+        <input
+          type="text"
+          placeholder="Enter the operand to perform the operations."
+          class="u-full-width"
+          name="x"
+        />
+
+       
+
+        <input type="submit" value="Calculate" id="calc_btn" />
+        <br />
+        <div class="alert">
+          {{ results }}
+        </div>
+      </form>
+    </div>
+
+    
+    </div>
+  </body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>DS Project</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1><a href="index.html">Smarter Calc/Conv</a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li>
+								<a href="#" class="icon solid fa-angle-down">Conversions</a>
+								<ul>
+									<li><a href="Infix to Postfix.html">Infix to Postfix</a></li>
+									<li><a href="Postfix to Infix.html">Postfix to Infix</a></li>
+									<li><a href="Infix to Prefix.html">Infix to Prefix</a></li>
+									<li><a href="Prefix to Infix.html">Prefix to Infix</a></li>
+									
+								</ul>
+							</li>
+							<li><a href="Calculator.html" class="button">Calculator</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			 <style>
+      .alert {
+        background: green;
+        padding: 1rem;
+        border-radius: 5px;
+        color: white;
+        margin: 1rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h3>Postfix to Infix Converter:</h3>
+    </div>
+    <p>
+		Some important points to note and directions of use :
+		<li>Expressions entered must not contain whitespaces. Eg. Enter A+B-C*D/E instead of A + B - C * D / E</li>
+<li>For all conversions the process will be displayed alongwith the final output, but the process displayed might not be the conventional one, it would be the process with the help of which the conversion takes place behind the scenes.
+Expressions with both letters and numbers can be converted</li>
+
+
+
+    </p>
+
+    <!-- Form -->
+    <div class="container">
+      <form action="/send" method="POST">
+        <label for="Operand">Enter the expression</label>
+        <input
+          type="text"
+          placeholder="Expressions"
+          class="u-full-width"
+          name="x"
+        />
+
+       
+        <br>
+        <input type="submit" value="Calculate" id="calc_btn" />
+        <br>
+        <div class="alert">
+          {{ results }}
+        </div>
+      </form>
+    </div>
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
