@@ -2938,7 +2938,7 @@
 	}
 
 	#header {
-		background: #444;
+		background:wheat;
 		color: #bbb;
 		cursor: default;
 		height: 3.25em;
@@ -3007,7 +3007,7 @@
 					}
 
 						#header nav > ul > li a:not(.button).icon:before {
-							color: black;
+							color:black;
 							margin-right: 0.5em;
 						}
 
@@ -3016,7 +3016,7 @@
 					}
 
 					#header nav > ul > li.active a:not(.button) {
-						background-color: rgba(153, 153, 153, 0.25);
+						background-color: white;
 					}
 
 					#header nav > ul > li .button {
