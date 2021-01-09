@@ -13,7 +13,7 @@ class post_to_inf:
         return stack.pop()        
     
     def operand(self,char) :
-        if (char >= 'a' and char <= 'z') or (char >= 'A' and char <= 'Z') : 
+        if (char >= 'a' and char <= 'z') or (char >= 'A' and char <= 'Z') or char in "0123456789" : 
             return True 
         else :
             return False     

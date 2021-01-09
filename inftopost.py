@@ -48,7 +48,7 @@ class inf_to_post:
 
     def isOperand(self,i):
 
-        if i in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ':
+        if i in 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789':
 
             return True
 
@@ -59,19 +59,10 @@ class inf_to_post:
     def infixtopostfix (self,exprs):
 
         postfix=""
-        expr=""
+        
         for i in exprs:
-            if (i.islower()):
-                expr = expr+i.upper()
-            elif (i==' '):
-                continue
-            else:
-                expr = expr+i
 
-
-        for i in expr:
-
-            if(len(expr)%2==0):
+            if(len(exprs)%2==0):
 
                 
 
