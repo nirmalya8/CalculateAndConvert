@@ -3,6 +3,9 @@ app = Flask(__name__,static_folder="assets")
 @app.route('/')
 def homepage():
     return render_template('index.html')
+@app.route('/index.html')
+def homepage2():
+    return render_template('index.html')
 
 #this part will be in infix to postfix app route
 @app.route('/InfixtoPostfix.html')
