@@ -19,10 +19,10 @@
 							<li>
 								<a href="#" class="icon solid fa-angle-down">Conversions</a>
 								<ul>
-									<li><a href="Infix to Postfix.html">Infix to Postfix</a></li>
-									<li><a href="Postfix to Infix.html">Postfix to Infix</a></li>
-									<li><a href="Infix to Prefix.html">Infix to Prefix</a></li>
-									<li><a href="Prefix to Infix.html">Prefix to Infix</a></li>
+									<li><a href="InfixtoPostfix.html">Infix to Postfix</a></li>
+									<li><a href="PostfixtoInfix.html">Postfix to Infix</a></li>
+									<li><a href="InfixtoPrefix.html">Infix to Prefix</a></li>
+									<li><a href="PrefixtoInfix.html">Prefix to Infix</a></li>
 									
 								</ul>
 							</li>
@@ -61,7 +61,7 @@ Expressions with both letters and numbers can be converted</li>
 
     <!-- Form -->
     <div class="container">
-      <form action="/send" method="POST">
+      <form action="/PrefixtoInfix.html/show" method="POST">
         <label for="Operand">Enter the expression</label>
         <input
           type="text"
@@ -75,7 +75,10 @@ Expressions with both letters and numbers can be converted</li>
         <input type="submit" value="Calculate" id="calc_btn" />
         <br>
         <div class="alert">
-          {{ results }}
+			{% for i in l %}
+			{{i}} </br>
+		{% endfor %}
+          Final Result: {{ results }}
         </div>
       </form>
     </div>

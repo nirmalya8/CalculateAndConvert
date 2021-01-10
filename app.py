@@ -122,6 +122,23 @@ def send2():
     else :
         return render_template('PostfixtoInfix.html',results = "Wrong Input, Check Directions of Use and try again",l=[])
 
+#this part is for prefix to infix
+@app.route('/PrefixtoInfix.html')
+def pretoinf():
+    return render_template("PrefixtoInfix.html")
+
+@app.route('/PrefixtoInfix.html/show',methods=['POST'])
+def send3():
+    from pretoinf import prefixtoinfix as prtin 
+    obj3 = prtin()
+    l = []
+    expr=request.form['x']
+    l,result = obj3.prefixToInfix(expr)
+    if (result!=False):
+        return render_template('PostfixtoInfix.html',results = result,l=l)
+    else :
+        return render_template('PostfixtoInfix.html',results = "Wrong Input, Check Directions of Use and try again",l=[])
+
 
 
 #Calculator
