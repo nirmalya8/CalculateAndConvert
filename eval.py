@@ -4,7 +4,7 @@ class evaluate:
         import numpy 
         import math
         try:
-            a = int(a)
+            a = float(a)
             s = s.replace("a",a)
             try:
                 c = compile(s,"<string>","eval")
