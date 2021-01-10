@@ -84,6 +84,44 @@ def send():
     return render_template('InfixtoPostfix.html',results = result,l=l)
 
 #this part is for the postfix to infix app route
+@app.route('/PostfixtoInfix.html')
+def showposttoinf():
+    return render_template("PostfixtoInfix.html")
+
+@app.route('/PostfixtoInfix.html/show',methods=['POST'])
+def postinfshow():
+    from posttoinf import post_to_inf as pti 
+    s = request.form['x']
+    obj1=pti()
+    r = []
+    #r[:] =s
+    for i in s:
+        r.append(i)
+    l,result=obj1.getInfix(r)
+    if (result==False):
+        result = "Wrong Input, Check Directions of use and try again"
+    return render_template('PostfixtoInfix.html',results = result,l=l)
+
+#the following part is for Infix to Prefix
+@app.route('/InfixtoPrefix.html')
+def showinftopre():
+    return render_template("InfixtoPrefix.html")
+
+@app.route('/InfixtoPrefix.html/show',methods=['POST'])
+def send2():
+    from inftopre import infix_to_prefix as intpr 
+    obj2 = intpr()
+    expr=request.form['x']
+    rev=""
+    rev=obj2.reverse(expr)
+    #print(rev)
+    l,result=obj2.infixtoprefix(rev)
+    if (result!=False):
+        prefix=obj2.reverse(result)
+        return render_template('PostfixtoInfix.html',results = prefix,l=l)
+    else :
+        return render_template('PostfixtoInfix.html',results = "Wrong Input, Check Directions of Use and try again",l=[])
+
 
 
 #Calculator
