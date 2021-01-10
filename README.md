@@ -25,3 +25,4 @@ Some general directions of use are as follows-
 1. Expressions entered must not contain whitespaces. Eg. Enter A+B-C*D/E instead of A + B - C * D / E
 2. For all conversions the process will be displayed alongwith the final output, but the process displayed might not be the conventional one, it would be the process with the help of which the conversion takes place behind the scenes. 
 3. Expressions with both letters and numbers can be converted. 
+4. Press calculate after entering expression.
