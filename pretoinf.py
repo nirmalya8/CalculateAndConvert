@@ -1,9 +1,12 @@
 class prefixtoinfix:
     def prefixToInfix(self,prefix):
         stack = []
-        
+        l = []
         # read prefix in reverse order
         i = len(prefix) - 1
+        for j in prefix:
+            if j == ' ':
+                return [],False
         while i >= 0:
             if not self.isOperator(prefix[i]):
                 
@@ -14,11 +17,11 @@ class prefixtoinfix:
             
                 # symbol is operator
                 str = "(" + stack.pop() + prefix[i] + stack.pop() + ")"
-                print(str)
+                l.append(str)
                 stack.append(str)
                 i -= 1
         
-        return stack.pop()
+        return l,stack.pop()
  
     def isOperator(self,c):
         if c == "*" or c == "+" or c == "-" or c == "/" or c == "^" or c == "(" or c == ")":

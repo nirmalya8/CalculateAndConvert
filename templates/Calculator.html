@@ -12,7 +12,7 @@
 
     <style>
       .alert {
-        background: green;
+        background: goldenrod;
         padding: 1rem;
         border-radius: 5px;
         color: honeydew;
@@ -21,10 +21,14 @@
       }
      body{
          background-color:lavenderblush;
+<<<<<<< HEAD:GUI/Calculator.html
      }
      #calc_btn{
        background-color:honeydew;
      }
+=======
+     
+>>>>>>> d3430034ed91c4c532560fd29fc54d13306948cc:templates/Calculator.html
     </style>
   </head>
 
@@ -32,24 +36,33 @@
     <div class="container">
       <h3>Perform Operations:</h3>
     </div>
+    <div class="boxed">
     <p>
         Some important points to note and directions of use :
 
-<li>The user can enter a number "a" and an expression in terms of a. It must be noted that entering the number a is totally the user's choice.<li> The user can just enter any expression and that would be accepted.
+
+        <li>The user can enter a number "a" and an expression in terms of a. It must be noted that entering the number a is totally the user's choice.<li> The user can just enter any expression and that would be accepted.
 If a number is entered, and an expression is to be evaluated where the input to a variable is the number, then the expression must be written in terms of "a" only, otherwise it would throw an error. At the present moment, we haven't accounted for multivariate expressions.
-Python syntax should be followed.</li> For Eg. If you want to evaluate 2^3, then you have to enter 2**3 and not 2^3.
+Python syntax should be followed.<li>Support for Python's mathematical modules numpy and math has been added. </li></li> For Eg. If you want to evaluate 2^3, then you have to enter 2**3 and not 2^3.
 Functions of modules such as numpy and math have been included. Eg. a) If you want to get a precise value of pi, then you can enter math.pi b) Trigonometric functions can be evaluated by using numpy.sin(a) or numpy.cos(a).</li>
-    </p>
+    </p></div>
 
     <!-- Form -->
     <div class="container">
-      <form action="/send" method="POST">
-        <label for="Operand">Operand</label>
+      <form action="/Calculator.html/show" method="POST">
+        <label for="Number(a)">Number(a)</label>
         <input
           type="text"
-          placeholder="Enter the operand to perform the operations."
+          placeholder="Enter the Number to perform the operations."
           class="u-full-width"
-          name="x"
+          name="a"
+        />
+        <label for="Operand">Expression</label>
+        <input
+          type="text"
+          placeholder="Enter the Expression to perform the operations."
+          class="u-full-width"
+          name="s"
         />
 
        

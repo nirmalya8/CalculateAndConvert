@@ -12,34 +12,20 @@
 
 			<!-- Header -->
 				<header id="header">
-					<h1><a href="index.html">Smarter Calc/Conv</a></h1>
+					<h1>Smarter Calc/Conv</h1>
 					<nav id="nav">
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li>
-								<a href="#" class="icon solid fa-angle-down">Conversions</a>
-								<ul>
-									<li><a href="Infix to Postfix.html">Infix to Postfix</a></li>
-									<li><a href="Postfix to Infix.html">Postfix to Infix</a></li>
-									<li><a href="Infix to Prefix.html">Infix to Prefix</a></li>
-									<li><a href="Prefix to Infix.html">Prefix to Infix</a></li>
-									
-								</ul>
-							</li>
-							<li><a href="Calculator.html" class="button">Calculator</a></li>
-						</ul>
 					</nav>
 				</header>
 
 			 <style>
       .alert {
-        background: green;
+        background: goldenrod;
         padding: 1rem;
         border-radius: 5px;
         color: white;
         margin: 1rem;
-      }
-      body{
+	  }
+	  body{
 		  background-color: lavenderblush;
 		  font-weight:550;
 	  }
@@ -51,7 +37,7 @@
 
   <body>
     <div class="container">
-      <h3>Infix to Prefix Converter:</h3>
+      <h3>Postfix to Infix Converter:</h3>
     </div>
     <p>
 		Some important points to note and directions of use :
@@ -65,7 +51,7 @@ Expressions with both letters and numbers can be converted</li>
 
     <!-- Form -->
     <div class="container">
-      <form action="/send" method="POST">
+      <form action="/PostfixtoInfix.html/show" method="POST">
         <label for="Operand">Enter the expression</label>
         <input
           type="text"
@@ -79,7 +65,10 @@ Expressions with both letters and numbers can be converted</li>
         <input type="submit" value="Calculate" id="calc_btn" />
         <br>
         <div class="alert">
-          {{ results }}
+			{% for i in l %}
+			{{i}} </br>
+		{% endfor %}	
+          Final Result : {{ results }}
         </div>
       </form>
     </div>

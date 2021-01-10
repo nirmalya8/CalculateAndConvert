@@ -38,16 +38,19 @@ class infix_to_prefix:
         return rev
     def infixtoprefix (self,expr):
         prefix=""
-        print('prefix expression after every iteration is:')
+        l = []
         for i in expr:
+            if i==' ':
+                return [],False
             if(len(expr)%2==0):
-                print("Incorrect infix expr")
-                return False
+                
+                return [],False
             elif(self.is0perand(i)):
                 prefix +=i
             elif(i in '+-*/^'):
                 while(len(self.items)and self.precedence[i] < self.precedence[self.seek()]):
                     prefix+=self.pop()
+
                 self.push(i)
             elif i is '(':
                 self.push(i)
@@ -56,12 +59,12 @@ class infix_to_prefix:
                 while o!='(':
                     prefix +=o
                     o=self.pop()
-            print(prefix)
+            l.append(prefix)
                 #end of for
         while len(self.items):
             if(self.seek()=='('):
                 self.pop()
             else:
                 prefix+=self.pop()
-                print(prefix)
-        return prefix
+                l.append(prefix)
+        return l,prefix
