@@ -1,5 +1,4 @@
-
-#this part will be in infix to postfix app route
+'''@app.route('/inftopost')
 from inftopost import inf_to_post as itf 
 print("INFIX TO POSTFIX")
 s = input()
@@ -61,5 +60,46 @@ print("EVALUATE")
 from eval import evaluate as ev
 obj = ev()
 res = ev.calc()
-print("Result {}".format(res))
+print("Result {}".format(res))'''
+from flask import *
+app = Flask(__name__,static_folder="assets")
+@app.route('/')
+def homepage():
+    return render_template('index.html')
 
+#this part will be in infix to postfix app route
+@app.route('/InfixtoPostfix.html')
+def showinftopost():
+    return render_template("InfixtoPostfix.html")
+
+@app.route('/InfixtoPostfix.html/show',methods=['POST'])
+def send():
+    from inftopost import inf_to_post as itf 
+    s = request.form['x']
+    obj=itf()
+    l=[]
+    l,result=obj.infixtopostfix(s)
+    if (result==False):
+        result = "Wrong input given, Follow directions of use given above"
+    return render_template('InfixtoPostfix.html',results = result,l=l)
+
+#this part is for the postfix to infix app route
+
+
+#Calculator
+@app.route('/Calculator.html')
+def showeval():
+    return render_template('Calculator.html')
+
+@app.route('/Calculator.html/show',methods = ['POST'])
+def outcalc():
+    from eval import evaluate as ev
+    obj = ev()
+    a = request.form['a']
+    s = request.form['s']
+    res = ev.calc(a,s)
+    return render_template('Calculator.html',results = res)
+
+
+if __name__ == "__main__":
+    app.run(debug=True)

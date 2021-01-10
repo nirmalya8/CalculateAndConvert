@@ -57,7 +57,7 @@ class inf_to_post:
             return False
 
     def infixtopostfix (self,exprs):
-
+        l = []
         postfix=""
         
         for i in exprs:
@@ -94,7 +94,7 @@ class inf_to_post:
 
                     o=self.pop()
 
-            print(postfix)
+            l.append(postfix)
 
                 #end of for
 
@@ -107,6 +107,7 @@ class inf_to_post:
             else:
 
                 postfix+=self.pop()
-
-        return postfix
+                
+        l.append(postfix)
+        return l,postfix
 

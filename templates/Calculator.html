@@ -40,13 +40,20 @@ Functions of modules such as numpy and math have been included. Eg. a) If you wa
 
     <!-- Form -->
     <div class="container">
-      <form action="/send" method="POST">
-        <label for="Operand">Operand</label>
+      <form action="/Calculator.html/show" method="POST">
+        <label for="Number(a)">Number(a)</label>
         <input
           type="text"
-          placeholder="Enter the operand to perform the operations."
+          placeholder="Enter the Number to perform the operations."
           class="u-full-width"
-          name="x"
+          name="a"
+        />
+        <label for="Operand">Expression</label>
+        <input
+          type="text"
+          placeholder="Enter the Expression to perform the operations."
+          class="u-full-width"
+          name="s"
         />
 
        
