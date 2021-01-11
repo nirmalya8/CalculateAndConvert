@@ -26,3 +26,13 @@ Some general directions of use are as follows-
 2. For all conversions the process will be displayed alongwith the final output, but the process displayed might not be the conventional one, it would be the process with the help of which the conversion takes place behind the scenes. 
 3. Expressions with both letters and numbers can be converted. 
 4. Press calculate after entering expression.
+
+# DEPLOYMENT
+For deployment, we have used the pythonanywhere service: www.pythonanywhere.com . The process used for Deployment is:
+1. Head over to the pythonanywhere website and create an account, choosing the plan which suits you. We chose the Beginner Account Free Plan.
+2. Open up Consoles and then open a Bash console. 
+3. In the bash console, clone the repository using git clone using a virtual environment.
+4. Install the basic requirements, which are the basic modules imported, in this case which are Flask and numpy, using the requirements.txt file and the command pip install-r requirements.txt .
+5. Open web and Create a New web app and set the path of the source code and the name of the virtual environment. 
+6. Open the WSGI configuration file and make the required edits(uncomment out the flask portion, etc)
+7. FInally reload the website and open the link to see your deployed website.
