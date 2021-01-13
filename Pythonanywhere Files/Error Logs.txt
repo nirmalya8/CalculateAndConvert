@@ -1,0 +1,298 @@
+2021-01-10 17:08:43,230: Error running WSGI application
+2021-01-10 17:08:43,232: ModuleNotFoundError: No module named 'app'
+2021-01-10 17:08:43,233:   File "/var/www/nirmalya8_pythonanywhere_com_wsgi.py", line 95, in <module>
+2021-01-10 17:08:43,233:     from app import app as application  # noqa
+2021-01-10 17:08:43,233: ***************************************************
+2021-01-10 17:08:43,233: If you're seeing an import error and don't know why,
+2021-01-10 17:08:43,233: we have a dedicated help page to help you debug: 
+2021-01-10 17:08:43,233: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2021-01-10 17:08:43,233: ***************************************************
+2021-01-10 17:08:53,361: Error running WSGI application
+2021-01-10 17:08:53,361: ModuleNotFoundError: No module named 'app'
+2021-01-10 17:08:53,362:   File "/var/www/nirmalya8_pythonanywhere_com_wsgi.py", line 95, in <module>
+2021-01-10 17:08:53,362:     from app import app as application  # noqa
+2021-01-10 17:08:53,362: ***************************************************
+2021-01-10 17:08:53,363: If you're seeing an import error and don't know why,
+2021-01-10 17:08:53,363: we have a dedicated help page to help you debug: 
+2021-01-10 17:08:53,363: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2021-01-10 17:08:53,363: ***************************************************
+2021-01-10 17:12:12,125: Error running WSGI application
+2021-01-10 17:12:12,126: ModuleNotFoundError: No module named 'app'
+2021-01-10 17:12:12,126:   File "/var/www/nirmalya8_pythonanywhere_com_wsgi.py", line 95, in <module>
+2021-01-10 17:12:12,127:     from app import app as application  # noqa
+2021-01-10 17:12:12,127: ***************************************************
+2021-01-10 17:12:12,127: If you're seeing an import error and don't know why,
+2021-01-10 17:12:12,127: we have a dedicated help page to help you debug: 
+2021-01-10 17:12:12,127: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2021-01-10 17:12:12,127: ***************************************************
+2021-01-10 17:12:21,874: Error running WSGI application
+2021-01-10 17:12:21,875: ModuleNotFoundError: No module named 'app'
+2021-01-10 17:12:21,875:   File "/var/www/nirmalya8_pythonanywhere_com_wsgi.py", line 95, in <module>
+2021-01-10 17:12:21,875:     from app import app as application  # noqa
+2021-01-10 17:12:21,875: ***************************************************
+2021-01-10 17:12:21,876: If you're seeing an import error and don't know why,
+2021-01-10 17:12:21,876: we have a dedicated help page to help you debug: 
+2021-01-10 17:12:21,876: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2021-01-10 17:12:21,876: ***************************************************
+2021-01-10 17:14:30,780: Error running WSGI application
+2021-01-10 17:14:35,295: Error running WSGI application
+2021-01-10 17:14:35,296: ModuleNotFoundError: No module named 'app'
+2021-01-10 17:14:35,296:   File "/var/www/nirmalya8_pythonanywhere_com_wsgi.py", line 95, in <module>
+2021-01-10 17:14:35,296:     from app import app as application2  # noqa
+2021-01-10 17:14:35,296: ***************************************************
+2021-01-10 17:14:35,296: If you're seeing an import error and don't know why,
+2021-01-10 17:14:35,296: we have a dedicated help page to help you debug: 
+2021-01-10 17:14:35,296: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2021-01-10 17:14:35,297: ***************************************************
+2021-01-10 17:14:43,071: Error running WSGI application
+2021-01-10 17:14:43,073: ModuleNotFoundError: No module named 'app'
+2021-01-10 17:14:43,074:   File "/var/www/nirmalya8_pythonanywhere_com_wsgi.py", line 95, in <module>
+2021-01-10 17:14:43,074:     from app import app as application2  # noqa
+2021-01-10 17:14:43,074: ***************************************************
+2021-01-10 17:14:43,074: If you're seeing an import error and don't know why,
+2021-01-10 17:14:43,074: we have a dedicated help page to help you debug: 
+2021-01-10 17:14:43,074: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2021-01-10 17:14:43,074: ***************************************************
+2021-01-10 17:15:38,244: Error running WSGI application
+2021-01-10 17:15:38,245: ModuleNotFoundError: No module named 'app'
+2021-01-10 17:15:38,245:   File "/var/www/nirmalya8_pythonanywhere_com_wsgi.py", line 95, in <module>
+2021-01-10 17:15:38,245:     from app import app as application  # noqa
+2021-01-10 17:15:38,246: ***************************************************
+2021-01-10 17:15:38,246: If you're seeing an import error and don't know why,
+2021-01-10 17:15:38,246: we have a dedicated help page to help you debug: 
+2021-01-10 17:15:38,246: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2021-01-10 17:15:38,246: ***************************************************
+2021-01-10 17:20:43,617: Error running WSGI application
+2021-01-10 17:20:43,618: ModuleNotFoundError: No module named 'app'
+2021-01-10 17:20:43,618:   File "/var/www/nirmalya8_pythonanywhere_com_wsgi.py", line 95, in <module>
+2021-01-10 17:20:43,618:     from app import app as application  # noqa
+2021-01-10 17:20:43,618: ***************************************************
+2021-01-10 17:20:43,618: If you're seeing an import error and don't know why,
+2021-01-10 17:20:43,618: we have a dedicated help page to help you debug: 
+2021-01-10 17:20:43,618: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2021-01-10 17:20:43,618: ***************************************************
+2021-01-10 17:27:50,189: Error running WSGI application
+2021-01-10 17:27:50,191: ModuleNotFoundError: No module named 'app'
+2021-01-10 17:27:50,192:   File "/var/www/nirmalya8_pythonanywhere_com_wsgi.py", line 95, in <module>
+2021-01-10 17:27:50,192:     from app import App as application  # noqa
+2021-01-10 17:27:50,192: ***************************************************
+2021-01-10 17:27:50,192: If you're seeing an import error and don't know why,
+2021-01-10 17:27:50,192: we have a dedicated help page to help you debug: 
+2021-01-10 17:27:50,193: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2021-01-10 17:27:50,193: ***************************************************
+2021-01-10 17:27:54,469: Error running WSGI application
+2021-01-10 17:27:54,469: ModuleNotFoundError: No module named 'app'
+2021-01-10 17:27:54,469:   File "/var/www/nirmalya8_pythonanywhere_com_wsgi.py", line 95, in <module>
+2021-01-10 17:27:54,469:     from app import App as application  # noqa
+2021-01-10 17:27:54,469: ***************************************************
+2021-01-10 17:27:54,470: If you're seeing an import error and don't know why,
+2021-01-10 17:27:54,470: we have a dedicated help page to help you debug: 
+2021-01-10 17:27:54,470: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2021-01-10 17:27:54,470: ***************************************************
+2021-01-10 17:28:31,352: Error running WSGI application
+2021-01-10 17:28:31,355: ModuleNotFoundError: No module named 'app'
+2021-01-10 17:28:31,355:   File "/var/www/nirmalya8_pythonanywhere_com_wsgi.py", line 95, in <module>
+2021-01-10 17:28:31,355:     from app import App as application  # noqa
+2021-01-10 17:28:31,355: ***************************************************
+2021-01-10 17:28:31,355: If you're seeing an import error and don't know why,
+2021-01-10 17:28:31,356: we have a dedicated help page to help you debug: 
+2021-01-10 17:28:31,356: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2021-01-10 17:28:31,356: ***************************************************
+2021-01-10 17:28:36,385: ***************************************************
+2021-01-10 17:28:36,385: If you're seeing an import error and don't know why,
+2021-01-10 17:28:36,386: we have a dedicated help page to help you debug: 
+2021-01-10 17:28:36,386: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2021-01-10 17:28:36,386: ***************************************************
+2021-01-10 18:09:55,035: Error running WSGI application
+2021-01-10 18:09:55,038: ModuleNotFoundError: No module named 'app'
+2021-01-10 18:09:55,038:   File "/var/www/nirmalya8_pythonanywhere_com_wsgi.py", line 95, in <module>
+2021-01-10 18:09:55,038:     from app import App as application  # noqa
+2021-01-10 18:09:55,038: ***************************************************
+2021-01-10 18:09:55,038: If you're seeing an import error and don't know why,
+2021-01-10 18:09:55,038: we have a dedicated help page to help you debug: 
+2021-01-10 18:09:55,038: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2021-01-10 18:09:55,039: ***************************************************
+2021-01-10 18:10:40,403: Error running WSGI application
+2021-01-10 18:10:40,405: ModuleNotFoundError: No module named 'app'
+2021-01-10 18:10:40,405:   File "/var/www/nirmalya8_pythonanywhere_com_wsgi.py", line 95, in <module>
+2021-01-10 18:10:40,405:     from app import app as application  # noqa
+2021-01-10 18:10:40,405: ***************************************************
+2021-01-10 18:10:40,405: If you're seeing an import error and don't know why,
+2021-01-10 18:10:40,406: we have a dedicated help page to help you debug: 
+2021-01-10 18:10:40,406: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2021-01-10 18:10:40,406: ***************************************************
+2021-01-10 18:10:42,946: Error running WSGI application
+2021-01-10 18:10:42,947: ModuleNotFoundError: No module named 'app'
+2021-01-10 18:10:42,947:   File "/var/www/nirmalya8_pythonanywhere_com_wsgi.py", line 95, in <module>
+2021-01-10 18:10:42,947:     from app import app as application  # noqa
+2021-01-10 18:10:42,947: ***************************************************
+2021-01-10 18:10:42,947: If you're seeing an import error and don't know why,
+2021-01-10 18:10:42,947: we have a dedicated help page to help you debug: 
+2021-01-10 18:10:42,947: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2021-01-10 18:10:42,947: ***************************************************
+2021-01-10 18:11:54,146: Error running WSGI application
+2021-01-10 18:11:54,147: ModuleNotFoundError: No module named 'app'
+2021-01-10 18:11:54,148:   File "/var/www/nirmalya8_pythonanywhere_com_wsgi.py", line 95, in <module>
+2021-01-10 18:11:54,148:     from app import app as application  # noqa
+2021-01-10 18:11:54,148: ***************************************************
+2021-01-10 18:11:54,148: If you're seeing an import error and don't know why,
+2021-01-10 18:11:56,332: Error running WSGI application
+2021-01-10 18:11:56,333: ModuleNotFoundError: No module named 'app'
+2021-01-10 18:11:56,333:   File "/var/www/nirmalya8_pythonanywhere_com_wsgi.py", line 95, in <module>
+2021-01-10 18:11:56,333:     from app import app as application  # noqa
+2021-01-10 18:11:56,333: ***************************************************
+2021-01-10 18:11:56,333: If you're seeing an import error and don't know why,
+2021-01-10 18:11:56,333: we have a dedicated help page to help you debug: 
+2021-01-10 18:11:56,333: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2021-01-10 18:11:56,334: ***************************************************
+2021-01-10 18:15:16,087: Error running WSGI application
+2021-01-10 18:15:16,089: NameError: name 'path' is not defined
+2021-01-10 18:15:16,089:   File "/var/www/nirmalya8_pythonanywhere_com_wsgi.py", line 92, in <module>
+2021-01-10 18:15:16,089:     if path not in sys.path:
+2021-01-10 18:15:16,089: ***************************************************
+2021-01-10 18:15:16,089: If you're seeing an import error and don't know why,
+2021-01-10 18:15:16,089: we have a dedicated help page to help you debug: 
+2021-01-10 18:15:16,089: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2021-01-10 18:15:16,089: ***************************************************
+2021-01-10 18:16:36,165: /home/nirmalya8/CalculateAndConvert/inftopost.py:83: SyntaxWarning: "is" with a literal. Did you mean "=="?
+2021-01-10 18:16:36,165:   elif i is '(':
+2021-01-10 18:16:36,165: /home/nirmalya8/CalculateAndConvert/inftopost.py:87: SyntaxWarning: "is" with a literal. Did you mean "=="?
+2021-01-10 18:16:36,166:   elif i is ')':
+2021-01-10 18:20:51,650: OSError: write error
+2021-01-10 18:22:00,701: Exception on /InfixtoPostfix.html/show [POST]
+Traceback (most recent call last):
+  File "/home/nirmalya8/.virtualenvs/env/lib/python3.8/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nirmalya8/.virtualenvs/env/lib/python3.8/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nirmalya8/.virtualenvs/env/lib/python3.8/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nirmalya8/.virtualenvs/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nirmalya8/.virtualenvs/env/lib/python3.8/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nirmalya8/.virtualenvs/env/lib/python3.8/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nirmalya8/CalculateAndConvert/app.py", line 21, in send
+    l,result=obj.infixtopostfix(s)
+TypeError: cannot unpack non-iterable bool object
+2021-01-10 18:22:36,183: Exception on /InfixtoPostfix.html/show [POST]
+Traceback (most recent call last):
+  File "/home/nirmalya8/.virtualenvs/env/lib/python3.8/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nirmalya8/.virtualenvs/env/lib/python3.8/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nirmalya8/.virtualenvs/env/lib/python3.8/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nirmalya8/.virtualenvs/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nirmalya8/.virtualenvs/env/lib/python3.8/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nirmalya8/.virtualenvs/env/lib/python3.8/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nirmalya8/CalculateAndConvert/app.py", line 21, in send
+    l,result=obj.infixtopostfix(s)
+TypeError: cannot unpack non-iterable bool object
+2021-01-10 20:35:21,066: /home/nirmalya8/CalculateAndConvert/inftopre.py:33: SyntaxWarning: "is" with a literal. Did you mean "=="?
+2021-01-10 20:35:21,067:   if i is '(':
+2021-01-10 20:35:21,067: /home/nirmalya8/CalculateAndConvert/inftopre.py:35: SyntaxWarning: "is" with a literal. Did you mean "=="?
+2021-01-10 20:35:21,067:   elif i is ')':
+2021-01-10 20:35:21,068: /home/nirmalya8/CalculateAndConvert/inftopre.py:55: SyntaxWarning: "is" with a literal. Did you mean "=="?
+2021-01-10 20:35:21,068:   elif i is '(':
+2021-01-10 20:35:21,068: /home/nirmalya8/CalculateAndConvert/inftopre.py:57: SyntaxWarning: "is" with a literal. Did you mean "=="?
+2021-01-10 20:35:21,068:   elif i is ')':
+2021-01-11 17:48:11,180: OSError: write error
+2021-01-11 17:56:39,188: OSError: write error
+2021-01-11 18:45:36,180: <string>:1: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+2021-01-11 19:11:38,844: Exception on /Calculator.html/show [POST]
+Traceback (most recent call last):
+  File "/home/nirmalya8/CalculateAndConvert/eval.py", line 7, in calc
+    a = float(a)
+ValueError: could not convert string to float: ''
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/nirmalya8/.virtualenvs/env/lib/python3.8/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nirmalya8/.virtualenvs/env/lib/python3.8/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nirmalya8/.virtualenvs/env/lib/python3.8/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nirmalya8/.virtualenvs/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nirmalya8/.virtualenvs/env/lib/python3.8/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nirmalya8/.virtualenvs/env/lib/python3.8/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nirmalya8/CalculateAndConvert/app.py", line 95, in outcalc
+    res = ev.calc(a,s)
+  File "/home/nirmalya8/CalculateAndConvert/eval.py", line 15, in calc
+    c = compile(s,"<string>","eval")
+  File "<string>", line 0
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+2021-01-12 04:38:57,449: Exception on /Calculator.html/show [POST]
+Traceback (most recent call last):
+  File "/home/nirmalya8/CalculateAndConvert/eval.py", line 8, in calc
+    s = s.replace("a",a)
+TypeError: replace() argument 2 must be str, not float
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/nirmalya8/.virtualenvs/env/lib/python3.8/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nirmalya8/.virtualenvs/env/lib/python3.8/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nirmalya8/.virtualenvs/env/lib/python3.8/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nirmalya8/.virtualenvs/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nirmalya8/.virtualenvs/env/lib/python3.8/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nirmalya8/.virtualenvs/env/lib/python3.8/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nirmalya8/CalculateAndConvert/app.py", line 95, in outcalc
+    res = ev.calc(a,s)
+  File "/home/nirmalya8/CalculateAndConvert/eval.py", line 15, in calc
+    c = compile(s,"<string>","eval")
+  File "<string>", line 1
+    2x+3=a
+     ^
+SyntaxError: invalid syntax
+2021-01-12 04:39:58,887: Exception on /InfixtoPostfix.html/show [POST]
+Traceback (most recent call last):
+  File "/home/nirmalya8/.virtualenvs/env/lib/python3.8/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nirmalya8/.virtualenvs/env/lib/python3.8/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nirmalya8/.virtualenvs/env/lib/python3.8/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nirmalya8/.virtualenvs/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nirmalya8/.virtualenvs/env/lib/python3.8/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nirmalya8/.virtualenvs/env/lib/python3.8/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nirmalya8/CalculateAndConvert/app.py", line 21, in send
+    l,result=obj.infixtopostfix(s)
+TypeError: cannot unpack non-iterable bool object
+2021-01-12 04:40:41,265: Exception on /InfixtoPostfix.html/show [POST]
+Traceback (most recent call last):
+  File "/home/nirmalya8/.virtualenvs/env/lib/python3.8/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nirmalya8/.virtualenvs/env/lib/python3.8/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nirmalya8/.virtualenvs/env/lib/python3.8/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nirmalya8/.virtualenvs/env/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nirmalya8/.virtualenvs/env/lib/python3.8/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nirmalya8/.virtualenvs/env/lib/python3.8/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nirmalya8/CalculateAndConvert/app.py", line 21, in send
+    l,result=obj.infixtopostfix(s)
+TypeError: cannot unpack non-iterable bool object
