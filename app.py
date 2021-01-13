@@ -58,9 +58,9 @@ def send2():
     l,result=obj2.infixtoprefix(rev)
     if (result!=False):
         prefix=obj2.reverse(result)
-        return render_template('PostfixtoInfix.html',results = prefix,l=l)
+        return render_template('InfixtoPrefix.html',results = prefix,l=l)
     else :
-        return render_template('PostfixtoInfix.html',results = "Wrong Input, Check Directions of Use and try again",l=[])
+        return render_template('InfixtoPrefix.html',results = "Wrong Input, Check Directions of Use and try again",l=[])
 
 #this part is for prefix to infix
 @app.route('/PrefixtoInfix.html')
