@@ -75,9 +75,9 @@ def send3():
     expr=request.form['x']
     l,result = obj3.prefixToInfix(expr)
     if (result!=False):
-        return render_template('PostfixtoInfix.html',results = result,l=l)
+        return render_template('PrefixtoInfix.html',results = result,l=l)
     else :
-        return render_template('PostfixtoInfix.html',results = "Wrong Input, Check Directions of Use and try again",l=[])
+        return render_template('PrefixtoInfix.html',results = "Wrong Input, Check Directions of Use and try again",l=[])
 
 
 
