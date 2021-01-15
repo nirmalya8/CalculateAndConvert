@@ -39,3 +39,9 @@ For deployment, we have used the pythonanywhere service: www.pythonanywhere.com 
 5. Open web and Create a New web app and set the path of the source code and the name of the virtual environment. 
 6. Open the WSGI configuration file and make the required edits(uncomment out the flask portion, etc)
 7. FInally reload the website and open the link to see your deployed website.
+
+The code for the bash console is basically creating a virtual environment, then cloning the repository and finally installing the required packages. The WSGI Configuration file has been uploaded in the PythonAnywhere Deployment Files. The error logs are there as well. 
+
+# THE END
+
+
