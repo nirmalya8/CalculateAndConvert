@@ -1,6 +1,6 @@
 # Live Demo
 For a live demo of our project, you can check: http://nirmalya8.pythonanywhere.com/ 
-It is advised to go through the directions of use before moving into the live demo. The directions of use are also present in each part of the website.
+It is advised to go through the directions of use before moving into the live demo. The directions of use are also present in each part of the website. Hope you like it!!
 # CalculateAndConvert
 Our project Calculate And Convert basically consists of a) A calculator which can evaluate expressions and b) A converter. The details of these are mentioned below. Our website is made using the following - 
 1. HTML and CSS - For the frontend design of the website. 
