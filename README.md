@@ -43,5 +43,5 @@ For deployment, we have used the pythonanywhere service: www.pythonanywhere.com 
 The code for the bash console is basically creating a virtual environment, then cloning the repository and finally installing the required packages. The WSGI Configuration file has been uploaded in the PythonAnywhere Deployment Files. The error logs are there as well. 
 
 # THE END
-
+Thank you for visiting the repository and we hope you liked it!
 
