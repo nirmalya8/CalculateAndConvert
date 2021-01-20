@@ -20,6 +20,8 @@ Our project Calculate And Convert basically consists of a) A calculator which ca
 
 First, we will take a look at the Calculator part.
 
+---
+
 # Calculator
 In python, we have a very powerful method for performing complex computations which is the eval() function. In the eval() function, we can pass an expression(String) as an argument and that expression will be evaluated. Say we pass the String "2+2" into the function as eval("2+2"), we will get the output as 4 . 
 Some important points to note and directions of use :
@@ -47,6 +49,8 @@ Some general directions of use are as follows-
 ![](ReadmeImages/posttoinf.jpeg "Postfix To Infix")
 ![](ReadmeImages/inftopre.jpeg "Infix To Prefix")
 ![](ReadmeImages/pretoinf.jpeg "Prefix To Infix")
+
+---
 
 # DEPLOYMENT
 For deployment, we have used the pythonanywhere service: www.pythonanywhere.com . The process used for Deployment is:
