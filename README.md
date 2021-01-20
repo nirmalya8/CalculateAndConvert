@@ -19,7 +19,7 @@ Some important points to note and directions of use :
 3. Python syntax should be followed. For Eg. If you want to evaluate 2^3, then you have to enter 2**3 and not 2^3.
 4. Functions of modules such as numpy and math have been included. Eg. a) If you want to get a precise value of pi, then you can enter math.pi b) Trigonometric functions can be evaluated by using numpy.sin(a) or numpy.cos(a).
 
-![](ReadmeImages/calculator.jpeg "A view of our homepage")
+![](ReadmeImages/calculator.jpeg "Calculator")
 
 # Conversions
 The following part is about the conversions which can be performed using our web app. Our app focuses on converting expressions -
@@ -33,6 +33,10 @@ Some general directions of use are as follows-
 2. For all conversions the process will be displayed alongwith the final output, but the process displayed might not be the conventional one, it would be the process with the help of which the conversion takes place behind the scenes. 
 3. Expressions with both letters and numbers can be converted. 
 4. Press calculate after entering expression.
+
+![](ReadmeImages/homepage.jpeg "A view of our homepage")
+![](ReadmeImages/homepage.jpeg "A view of our homepage")
+![](ReadmeImages/homepage.jpeg "A view of our homepage")
 
 # DEPLOYMENT
 For deployment, we have used the pythonanywhere service: www.pythonanywhere.com . The process used for Deployment is:
