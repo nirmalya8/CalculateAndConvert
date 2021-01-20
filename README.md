@@ -3,6 +3,15 @@ For a live demo of our project, you can check: http://nirmalya8.pythonanywhere.c
 It is advised to go through the directions of use before moving into the live demo. The directions of use are also present in each part of the website. Hope you like it!!
 ![](ReadmeImages/homepage.jpeg "A view of our homepage")
 
+# Running the code in your local machine
+To Run the code in your local machine, you have to first clone the repository, either using `git clone` or by downloading it.
+Next, open up a terminal and move into the repository folder. Type in the following code to install all required modules and dependencies.
+``` pip install -r requirements.txt ```
+After the installation process is complete, you can run the following code:
+``` python app.py ```
+On running this a localhost link will be shown, which you can click to view the web app. 
+
+
 # CalculateAndConvert
 Our project Calculate And Convert basically consists of a) A calculator which can evaluate expressions and b) A converter. The details of these are mentioned below. Our website is made using the following - 
 1. HTML and CSS - For the frontend design of the website. 
@@ -34,9 +43,10 @@ Some general directions of use are as follows-
 3. Expressions with both letters and numbers can be converted. 
 4. Press calculate after entering expression.
 
-![](ReadmeImages/homepage.jpeg "A view of our homepage")
-![](ReadmeImages/homepage.jpeg "A view of our homepage")
-![](ReadmeImages/homepage.jpeg "A view of our homepage")
+![](ReadmeImages/inftopost.jpeg "Infix To Postfix")
+![](ReadmeImages/posttoinf.jpeg "Postfix To Infix")
+![](ReadmeImages/inftopre.jpeg "Infix To Prefix")
+![](ReadmeImages/pretoinf.jpeg "Prefix To Infix")
 
 # DEPLOYMENT
 For deployment, we have used the pythonanywhere service: www.pythonanywhere.com . The process used for Deployment is:
@@ -48,8 +58,11 @@ For deployment, we have used the pythonanywhere service: www.pythonanywhere.com 
 6. Open the WSGI configuration file and make the required edits(uncomment out the flask portion, etc)
 7. FInally reload the website and open the link to see your deployed website.
 
+![](ReadmeImages/pyany.jpeg "Python Anywhere")
+
 The code for the bash console is basically creating a virtual environment, then cloning the repository and finally installing the required packages. The WSGI Configuration file has been uploaded in the PythonAnywhere Deployment Files. The error logs are there as well. 
 
 # THE END
 Thank you for visiting the repository and we hope you liked it!
 
+![](ReadmeImages/ty.jpeg "Thank You")
