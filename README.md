@@ -19,6 +19,8 @@ Some important points to note and directions of use :
 3. Python syntax should be followed. For Eg. If you want to evaluate 2^3, then you have to enter 2**3 and not 2^3.
 4. Functions of modules such as numpy and math have been included. Eg. a) If you want to get a precise value of pi, then you can enter math.pi b) Trigonometric functions can be evaluated by using numpy.sin(a) or numpy.cos(a).
 
+![](ReadmeImages/calculator.jpeg "A view of our homepage")
+
 # Conversions
 The following part is about the conversions which can be performed using our web app. Our app focuses on converting expressions -
 1. Infix to Postfix Converter 
